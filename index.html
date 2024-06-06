@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- FIM DO GOOGLE FONTS -->
+
+    <!-- BOOTSTRAPS ICONS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- FIM DO BOOTSTRAPS ICONS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="">
+                    <img src="images/logoA.png" alt="Logo A" style="height: 200px;">
+                </a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Especialidades</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>contato</button>
+                </a>
+            </div> <!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="">Início</a></li>
+                        <li><a href="">Especialidades</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Projetos</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--MENU-MOBILE-->
+                <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--INTERFACE-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>OLÁ, EU SOU UM PROGRAMADOR <span>.</span></h1>
+                        <p>Seja Bem-Vindo ao meu Portfólio.</p>
+
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="img-topo-site">
+                        <img src="images/minhaImagem.png" alt="" class="conteiner">
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>REDES SOCIAIS.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Visite meus projetos e vizualize meu perfil.</p>
+
+                    </div><!-- especialidades-box -->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-linkedin"></i>
+                        <h3>Linkedin</h3>
+                        <p>Saiba mais sobre mim! Minhas conquistas, aprendizados e projetos estão aqui.</p>
+                    </div><!-- especialidades-box -->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-ban"></i>
+                        <h3>Em Breve</h3>
+                        <p>Em breve atualizarei esta caixa!!</p>
+                    </div><!-- especialidades-box -->
+
+                </div><!--flex-->
+            </div> <!-- Interface -->
+        </section> <!-- especialidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/minhafoto.jpg" alt="MinhaFoto" class="minhafoto">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU ARTHUR IVAZA COSTA.</span></h2>
+                        <p>Eu estou cursando Engenharia de Software, sempre em busca de experiência e aprendizagem, por enquanto me especializei mais no front-end porém também quero me aprimorar no back-end, e em breve me tornarei full-stack.</p>
+                        <p>Tenho conhecimento em <strong>GitHub</strong>. <strong>GitBash</strong>, <strong>HTML5</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, ainda estou aprendendo mais sobre <strong>Jira</strong>, <strong>JAVA</strong>, <strong>Bando de dados</strong> e em breve quero aprender sobre novas ferramentas e frameworks. Estou sempre disposto a novos aprendizados e experiências.</p>
+
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/arthur_i_c?igsh=MXRxejZqZjN6YzBoaA=="><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/arthurivaza"><button><i class="bi bi-github"></i></button></a>
+                            <a href=""><button><i class="bi bi-linkedin"></i></button></a>
+                        </div>
+                    </div><!--txt-sobre-->
+                </div><!--Flex-->
+            </div><!--Interface-->
+        </section><!--SOBRE-->
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/portfolio.png);">
+                        <div class="overlay">⊘Projetos em breve⊘</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/portfolio.png);">
+                        <div class="overlay">⊘Projetos em breve⊘</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/portfolio.png);">
+                        <div class="overlay">⊘Projetos em breve⊘</div>
+                    </div>
+                </div><!--FLEX-->
+            </div><!--INTERFACE-->
+        </section><!--PORTFOLIO-->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logoA.png" alt="LogoTipo">
+                    </div><!--LOGOFOOTER-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/arthur_i_c?igsh=MXRxejZqZjN6YzBoaA=="><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/arthurivaza"><button><i class="bi bi-github"></i></button></a>
+                        <a href=""><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--SOCIAL-->
+                </div>
+            </div><!--LINEFOOTER-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a
+                        href="mailto:arthurivazacostaa@gmail.com">arthurivazacostaa@gmail.com</a></p>
+            </div><!--LINEFOOTER-->
+        </div><!--Interface-->
+    </footer>
+
+</body>
+
+</html>
